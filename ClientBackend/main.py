@@ -20,7 +20,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return {"message": "Backend is running 🚀"}
+    return {"message": "Danish is learning 🚀"}
 
 @app.get("/health")
 def health_check():
