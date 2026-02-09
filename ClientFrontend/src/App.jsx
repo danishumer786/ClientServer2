@@ -29,7 +29,7 @@ export default function App() {
       <h2>ClientFrontend</h2>
 
       <button onClick={callBackend} disabled={loading}>
-        {loading ? "Calling..." : "Call Backend"}
+        {loading ? "Calling..." : "Calling Backend"}
       </button>
 
       {message && (
